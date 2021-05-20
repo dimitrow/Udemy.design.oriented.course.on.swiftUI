@@ -11,6 +11,7 @@
 		B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE82656DDC300F1E98F /* ContentView.swift */; };
 		B01A5CEB2656DDC500F1E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CEA2656DDC500F1E98F /* Assets.xcassets */; };
 		B01A5CEE2656DDC500F1E98F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CED2656DDC500F1E98F /* Preview Assets.xcassets */; };
+		B057B4E52656EAD30076A1AB /* StyleGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B057B4E42656EAD30076A1AB /* StyleGuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B01A5CEA2656DDC500F1E98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01A5CED2656DDC500F1E98F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B01A5CEF2656DDC500F1E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B057B4E42656EAD30076A1AB /* StyleGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */,
 				B01A5CE82656DDC300F1E98F /* ContentView.swift */,
+				B057B4E42656EAD30076A1AB /* StyleGuideView.swift */,
 				B01A5CEA2656DDC500F1E98F /* Assets.xcassets */,
 				B01A5CEF2656DDC500F1E98F /* Info.plist */,
 				B01A5CEC2656DDC500F1E98F /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B057B4E52656EAD30076A1AB /* StyleGuideView.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
 				B01A5CE72656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift in Sources */,
 			);
