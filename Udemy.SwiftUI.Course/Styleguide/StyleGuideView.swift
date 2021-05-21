@@ -26,6 +26,7 @@ struct StyleGuideView: View {
                 ColorSampleView(colorName: "TextSecondaryColor")
 
             }
+            
             VStack {
                 Text("Gradients")
                     .font(.title)
@@ -33,6 +34,9 @@ struct StyleGuideView: View {
                     .foregroundColor(Color("TextPrimaryColor"))
                 
                 
+                LinearGradientSampleView(gradient: primaryLinearGradient, title: "primaryLinearGradient")
+                LinearGradientSampleView(gradient: textLinearGradient, title: "textLinearGradient")
+            
             }
         }
         
@@ -56,22 +60,3 @@ struct StyleGuideView_Previews: PreviewProvider {
     }
 }
 
-struct ColorSampleView: View {
-    
-    let colorName: String
-    
-    var body: some View {
-        HStack {
-            Text(colorName)
-            Spacer()
-            Color(colorName)
-                .frame(minWidth: 100,
-                       idealWidth: 130,
-                       maxWidth: 140,
-                       minHeight: 40,
-                       idealHeight: 80,
-                       maxHeight: 90)
-            
-        }
-    }
-}
