@@ -10,7 +10,7 @@ import SwiftUI
 struct StyleGuideCard: View {
     var body: some View {
         
-        HStack {
+        HStack(spacing: 20) {
             
             Text("Generic Card")
                 .modifier(GenericCard())
