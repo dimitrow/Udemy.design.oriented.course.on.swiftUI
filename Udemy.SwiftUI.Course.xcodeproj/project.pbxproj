@@ -18,6 +18,7 @@
 		B057B4E52656EAD30076A1AB /* StyleGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B057B4E42656EAD30076A1AB /* StyleGuideView.swift */; };
 		B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD52659054100B3801A /* TextFontExamples.swift */; };
 		B0609DD82659738300B3801A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD72659738300B3801A /* ButtonExample.swift */; };
+		B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DDA265A761900B3801A /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B057B4E42656EAD30076A1AB /* StyleGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideView.swift; sourceTree = "<group>"; };
 		B0609DD52659054100B3801A /* TextFontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontExamples.swift; sourceTree = "<group>"; };
 		B0609DD72659738300B3801A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		B0609DDA265A761900B3801A /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		B01A5CE52656DDC300F1E98F /* Udemy.SwiftUI.Course */ = {
 			isa = PBXGroup;
 			children = (
+				B0609DD9265A760600B3801A /* Assignments */,
 				B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */,
 				B01A5CE82656DDC300F1E98F /* ContentView.swift */,
 				B043D34D2657B0A300110384 /* StyleGuide */,
@@ -96,6 +99,14 @@
 				B0609DD72659738300B3801A /* ButtonExample.swift */,
 			);
 			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		B0609DD9265A760600B3801A /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				B0609DDA265A761900B3801A /* CalculatorView.swift */,
+			);
+			path = Assignments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
 				B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
+				B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */,
 				B052F35F2658EF6B00B8492B /* StyleGuideCard.swift in Sources */,
 				B0609DD82659738300B3801A /* ButtonExample.swift in Sources */,
 				B01A5CE72656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift in Sources */,
