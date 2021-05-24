@@ -21,6 +21,7 @@
 		B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD52659054100B3801A /* TextFontExamples.swift */; };
 		B0609DD82659738300B3801A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD72659738300B3801A /* ButtonExample.swift */; };
 		B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DDA265A761900B3801A /* CalculatorView.swift */; };
+		B0F4CB7B265C1B9600396087 /* ImageSizingOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4CB7A265C1B9600396087 /* ImageSizingOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B0609DD52659054100B3801A /* TextFontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontExamples.swift; sourceTree = "<group>"; };
 		B0609DD72659738300B3801A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		B0609DDA265A761900B3801A /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		B0F4CB7A265C1B9600396087 /* ImageSizingOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizingOverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				B052F363265BA49300B8492B /* ShapeModifierexamples.swift */,
 				B052F367265BC57B00B8492B /* ArrowDrawingExample.swift */,
+				B0F4CB7A265C1B9600396087 /* ImageSizingOverview.swift */,
 			);
 			path = "Image Drawing Icons";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
 				B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
+				B0F4CB7B265C1B9600396087 /* ImageSizingOverview.swift in Sources */,
 				B052F364265BA49300B8492B /* ShapeModifierexamples.swift in Sources */,
 				B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */,
 				B052F35F2658EF6B00B8492B /* StyleGuideCard.swift in Sources */,
