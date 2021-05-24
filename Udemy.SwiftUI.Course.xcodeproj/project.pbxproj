@@ -15,6 +15,7 @@
 		B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043D34F2657B0FB00110384 /* LinearGradientSampleView.swift */; };
 		B052F35B2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052F35A2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift */; };
 		B052F35F2658EF6B00B8492B /* StyleGuideCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052F35E2658EF6B00B8492B /* StyleGuideCard.swift */; };
+		B052F364265BA49300B8492B /* ShapeModifierexamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052F363265BA49300B8492B /* ShapeModifierexamples.swift */; };
 		B057B4E52656EAD30076A1AB /* StyleGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B057B4E42656EAD30076A1AB /* StyleGuideView.swift */; };
 		B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD52659054100B3801A /* TextFontExamples.swift */; };
 		B0609DD82659738300B3801A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0609DD72659738300B3801A /* ButtonExample.swift */; };
@@ -32,6 +33,7 @@
 		B043D34F2657B0FB00110384 /* LinearGradientSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientSampleView.swift; sourceTree = "<group>"; };
 		B052F35A2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewModifiersSampleView.swift; sourceTree = "<group>"; };
 		B052F35E2658EF6B00B8492B /* StyleGuideCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideCard.swift; sourceTree = "<group>"; };
+		B052F363265BA49300B8492B /* ShapeModifierexamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModifierexamples.swift; sourceTree = "<group>"; };
 		B057B4E42656EAD30076A1AB /* StyleGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideView.swift; sourceTree = "<group>"; };
 		B0609DD52659054100B3801A /* TextFontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontExamples.swift; sourceTree = "<group>"; };
 		B0609DD72659738300B3801A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */,
 				B01A5CE82656DDC300F1E98F /* ContentView.swift */,
 				B043D34D2657B0A300110384 /* StyleGuide */,
+				B052F362265BA46700B8492B /* Image Drawing Icons */,
 				B01A5CEA2656DDC500F1E98F /* Assets.xcassets */,
 				B01A5CEF2656DDC500F1E98F /* Info.plist */,
 				B01A5CEC2656DDC500F1E98F /* Preview Content */,
@@ -99,6 +102,14 @@
 				B0609DD72659738300B3801A /* ButtonExample.swift */,
 			);
 			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		B052F362265BA46700B8492B /* Image Drawing Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B052F363265BA49300B8492B /* ShapeModifierexamples.swift */,
+			);
+			path = "Image Drawing Icons";
 			sourceTree = "<group>";
 		};
 		B0609DD9265A760600B3801A /* Assignments */ = {
@@ -184,6 +195,7 @@
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
 				B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
+				B052F364265BA49300B8492B /* ShapeModifierexamples.swift in Sources */,
 				B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */,
 				B052F35F2658EF6B00B8492B /* StyleGuideCard.swift in Sources */,
 				B0609DD82659738300B3801A /* ButtonExample.swift in Sources */,
