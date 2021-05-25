@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B0146C56265C3DC0008C7EA0 /* ImageEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0146C55265C3DC0008C7EA0 /* ImageEditing.swift */; };
+		B0146C59265CEB9E008C7EA0 /* InteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0146C58265CEB9E008C7EA0 /* InteractiveView.swift */; };
 		B01A5CE72656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */; };
 		B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE82656DDC300F1E98F /* ContentView.swift */; };
 		B01A5CEB2656DDC500F1E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CEA2656DDC500F1E98F /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		B0146C55265C3DC0008C7EA0 /* ImageEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditing.swift; sourceTree = "<group>"; };
+		B0146C58265CEB9E008C7EA0 /* InteractiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveView.swift; sourceTree = "<group>"; };
 		B01A5CE32656DDC300F1E98F /* Udemy.SwiftUI.Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy.SwiftUI.Course.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_SwiftUI_CourseApp.swift; sourceTree = "<group>"; };
 		B01A5CE82656DDC300F1E98F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0146C57265CEB6E008C7EA0 /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B0146C58265CEB9E008C7EA0 /* InteractiveView.swift */,
+			);
+			path = DataFlow;
+			sourceTree = "<group>";
+		};
 		B01A5CDA2656DDC300F1E98F = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		B01A5CE52656DDC300F1E98F /* Udemy.SwiftUI.Course */ = {
 			isa = PBXGroup;
 			children = (
+				B0146C57265CEB6E008C7EA0 /* DataFlow */,
 				B0609DD9265A760600B3801A /* Assignments */,
 				B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */,
 				B01A5CE82656DDC300F1E98F /* ContentView.swift */,
@@ -204,6 +215,7 @@
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
 				B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
+				B0146C59265CEB9E008C7EA0 /* InteractiveView.swift in Sources */,
 				B0146C56265C3DC0008C7EA0 /* ImageEditing.swift in Sources */,
 				B0F4CB7B265C1B9600396087 /* ImageSizingOverview.swift in Sources */,
 				B052F364265BA49300B8492B /* ShapeModifierexamples.swift in Sources */,
