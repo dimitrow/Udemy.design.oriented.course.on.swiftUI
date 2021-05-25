@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0146C56265C3DC0008C7EA0 /* ImageEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0146C55265C3DC0008C7EA0 /* ImageEditing.swift */; };
 		B01A5CE72656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */; };
 		B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE82656DDC300F1E98F /* ContentView.swift */; };
 		B01A5CEB2656DDC500F1E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CEA2656DDC500F1E98F /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0146C55265C3DC0008C7EA0 /* ImageEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditing.swift; sourceTree = "<group>"; };
 		B01A5CE32656DDC300F1E98F /* Udemy.SwiftUI.Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy.SwiftUI.Course.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01A5CE62656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_SwiftUI_CourseApp.swift; sourceTree = "<group>"; };
 		B01A5CE82656DDC300F1E98F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				B052F363265BA49300B8492B /* ShapeModifierexamples.swift */,
 				B052F367265BC57B00B8492B /* ArrowDrawingExample.swift */,
 				B0F4CB7A265C1B9600396087 /* ImageSizingOverview.swift */,
+				B0146C55265C3DC0008C7EA0 /* ImageEditing.swift */,
 			);
 			path = "Image Drawing Icons";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
 				B0609DD62659054100B3801A /* TextFontExamples.swift in Sources */,
 				B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */,
+				B0146C56265C3DC0008C7EA0 /* ImageEditing.swift in Sources */,
 				B0F4CB7B265C1B9600396087 /* ImageSizingOverview.swift in Sources */,
 				B052F364265BA49300B8492B /* ShapeModifierexamples.swift in Sources */,
 				B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */,
