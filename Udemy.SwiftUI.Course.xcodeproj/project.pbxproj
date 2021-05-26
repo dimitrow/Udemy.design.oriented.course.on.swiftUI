@@ -13,6 +13,9 @@
 		B01A5CE92656DDC300F1E98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A5CE82656DDC300F1E98F /* ContentView.swift */; };
 		B01A5CEB2656DDC500F1E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CEA2656DDC500F1E98F /* Assets.xcassets */; };
 		B01A5CEE2656DDC500F1E98F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A5CED2656DDC500F1E98F /* Preview Assets.xcassets */; };
+		B03BEBF9265E3A0500D1A0F1 /* ComplexDataExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEBF8265E3A0500D1A0F1 /* ComplexDataExample.swift */; };
+		B03BEBFC265E433F00D1A0F1 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEBFB265E433F00D1A0F1 /* AccountManager.swift */; };
+		B03BEBFF265E436D00D1A0F1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEBFE265E436D00D1A0F1 /* SignUpView.swift */; };
 		B043D34B2657A7C300110384 /* ColorSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043D34A2657A7C300110384 /* ColorSampleView.swift */; };
 		B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043D34F2657B0FB00110384 /* LinearGradientSampleView.swift */; };
 		B052F35B2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052F35A2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift */; };
@@ -35,6 +38,9 @@
 		B01A5CEA2656DDC500F1E98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01A5CED2656DDC500F1E98F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B01A5CEF2656DDC500F1E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03BEBF8265E3A0500D1A0F1 /* ComplexDataExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexDataExample.swift; sourceTree = "<group>"; };
+		B03BEBFB265E433F00D1A0F1 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		B03BEBFE265E436D00D1A0F1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		B043D34A2657A7C300110384 /* ColorSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSampleView.swift; sourceTree = "<group>"; };
 		B043D34F2657B0FB00110384 /* LinearGradientSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientSampleView.swift; sourceTree = "<group>"; };
 		B052F35A2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewModifiersSampleView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				B0146C58265CEB9E008C7EA0 /* InteractiveView.swift */,
+				B03BEBF8265E3A0500D1A0F1 /* ComplexDataExample.swift */,
+				B03BEBFE265E436D00D1A0F1 /* SignUpView.swift */,
+				B03BEBFB265E433F00D1A0F1 /* AccountManager.swift */,
 			);
 			path = DataFlow;
 			sourceTree = "<group>";
@@ -210,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B043D34B2657A7C300110384 /* ColorSampleView.swift in Sources */,
+				B03BEBF9265E3A0500D1A0F1 /* ComplexDataExample.swift in Sources */,
 				B052F35B2657EB4F00B8492B /* ShadowViewModifiersSampleView.swift in Sources */,
 				B057B4E52656EAD30076A1AB /* StyleGuideView.swift in Sources */,
 				B043D3502657B0FB00110384 /* LinearGradientSampleView.swift in Sources */,
@@ -222,7 +232,9 @@
 				B0609DDB265A761900B3801A /* CalculatorView.swift in Sources */,
 				B052F35F2658EF6B00B8492B /* StyleGuideCard.swift in Sources */,
 				B0609DD82659738300B3801A /* ButtonExample.swift in Sources */,
+				B03BEBFC265E433F00D1A0F1 /* AccountManager.swift in Sources */,
 				B01A5CE72656DDC300F1E98F /* Udemy_SwiftUI_CourseApp.swift in Sources */,
+				B03BEBFF265E436D00D1A0F1 /* SignUpView.swift in Sources */,
 				B052F368265BC57B00B8492B /* ArrowDrawingExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -63,7 +63,6 @@ struct ColorizedButton: View {
                 .padding()
                 .background(Color.white)
                 .cornerRadius(20)
-                
                 .shadow(radius: 30)
                 .foregroundColor(selectedColor)
                 .overlay(RoundedRectangle(cornerRadius: 20.0).stroke(selectedColor, lineWidth: 2.0))

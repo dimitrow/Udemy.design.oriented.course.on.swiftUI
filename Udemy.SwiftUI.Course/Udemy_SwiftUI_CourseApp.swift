@@ -11,7 +11,7 @@ import SwiftUI
 struct Udemy_SwiftUI_CourseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ComplexDataExample()
         }
     }
 }

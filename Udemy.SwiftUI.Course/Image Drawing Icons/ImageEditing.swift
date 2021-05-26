@@ -17,7 +17,6 @@ struct ImageEditing: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(height: 300, alignment: .top)
                 .clipped()
-//                .padding()
             Text("DOGS ))").padding()
         }.frame(width: 400, height: 400, alignment: .top)
         .cornerRadius(20)
