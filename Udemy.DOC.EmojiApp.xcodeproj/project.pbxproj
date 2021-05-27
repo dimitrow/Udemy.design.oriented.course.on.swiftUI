@@ -16,6 +16,11 @@
 		B03BEC33265FA15800D1A0F1 /* AddNewEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC32265FA15800D1A0F1 /* AddNewEmojiView.swift */; };
 		B03BEC3B265FDDB600D1A0F1 /* SmileysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC3A265FDDB600D1A0F1 /* SmileysListView.swift */; };
 		B03BEC3E265FDF8800D1A0F1 /* SmileyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */; };
+		B03EB12B2660208000A229E5 /* PresentationStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB12A2660208000A229E5 /* PresentationStyleListView.swift */; };
+		B03EB12D266021BA00A229E5 /* PopOverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB12C266021BA00A229E5 /* PopOverExample.swift */; };
+		B03EB12F266021DF00A229E5 /* AlertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB12E266021DF00A229E5 /* AlertExample.swift */; };
+		B03EB131266021F000A229E5 /* ActionSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB130266021F000A229E5 /* ActionSheetExample.swift */; };
+		B03EB1332660221D00A229E5 /* ModalPresentationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1322660221D00A229E5 /* ModalPresentationExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		B03BEC32265FA15800D1A0F1 /* AddNewEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEmojiView.swift; sourceTree = "<group>"; };
 		B03BEC3A265FDDB600D1A0F1 /* SmileysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileysListView.swift; sourceTree = "<group>"; };
 		B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyDetailView.swift; sourceTree = "<group>"; };
+		B03EB12A2660208000A229E5 /* PresentationStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationStyleListView.swift; sourceTree = "<group>"; };
+		B03EB12C266021BA00A229E5 /* PopOverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverExample.swift; sourceTree = "<group>"; };
+		B03EB12E266021DF00A229E5 /* AlertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExample.swift; sourceTree = "<group>"; };
+		B03EB130266021F000A229E5 /* ActionSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExample.swift; sourceTree = "<group>"; };
+		B03EB1322660221D00A229E5 /* ModalPresentationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 		B03BEC18265F8A2400D1A0F1 /* Udemy.DOC.EmojiApp */ = {
 			isa = PBXGroup;
 			children = (
+				B03EB1292660204C00A229E5 /* Presentation */,
 				B03BEC2D265F911600D1A0F1 /* Data Models */,
 				B03BEC19265F8A2400D1A0F1 /* Udemy_DOC_EmojiAppApp.swift */,
 				B03BEC1B265F8A2400D1A0F1 /* ContentView.swift */,
@@ -98,6 +109,18 @@
 				B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */,
 			);
 			path = EmojiViews;
+			sourceTree = "<group>";
+		};
+		B03EB1292660204C00A229E5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB12A2660208000A229E5 /* PresentationStyleListView.swift */,
+				B03EB12C266021BA00A229E5 /* PopOverExample.swift */,
+				B03EB12E266021DF00A229E5 /* AlertExample.swift */,
+				B03EB130266021F000A229E5 /* ActionSheetExample.swift */,
+				B03EB1322660221D00A229E5 /* ModalPresentationExample.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,10 +195,15 @@
 				B03BEC1C265F8A2400D1A0F1 /* ContentView.swift in Sources */,
 				B03BEC33265FA15800D1A0F1 /* AddNewEmojiView.swift in Sources */,
 				B03BEC2B265F8B8300D1A0F1 /* EmojiListView.swift in Sources */,
+				B03EB12D266021BA00A229E5 /* PopOverExample.swift in Sources */,
 				B03BEC3E265FDF8800D1A0F1 /* SmileyDetailView.swift in Sources */,
 				B03BEC2F265F913D00D1A0F1 /* EmojiDataModel.swift in Sources */,
+				B03EB1332660221D00A229E5 /* ModalPresentationExample.swift in Sources */,
 				B03BEC1A265F8A2400D1A0F1 /* Udemy_DOC_EmojiAppApp.swift in Sources */,
+				B03EB12B2660208000A229E5 /* PresentationStyleListView.swift in Sources */,
+				B03EB131266021F000A229E5 /* ActionSheetExample.swift in Sources */,
 				B03BEC3B265FDDB600D1A0F1 /* SmileysListView.swift in Sources */,
+				B03EB12F266021DF00A229E5 /* AlertExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

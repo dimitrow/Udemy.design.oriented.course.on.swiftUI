@@ -30,6 +30,12 @@ struct ContentView: View {
                             Text("Smileys")
                             
                         }
+                    PresentationStyleListView()
+                        .tag(2)
+                        .tabItem {
+                            Image(systemName: "triangle")
+                            Text("Presentation")
+                        }
                     
                 })
             .accentColor(.green)
