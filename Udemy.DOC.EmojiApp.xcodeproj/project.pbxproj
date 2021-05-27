@@ -14,6 +14,8 @@
 		B03BEC2B265F8B8300D1A0F1 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC2A265F8B8300D1A0F1 /* EmojiListView.swift */; };
 		B03BEC2F265F913D00D1A0F1 /* EmojiDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC2E265F913D00D1A0F1 /* EmojiDataModel.swift */; };
 		B03BEC33265FA15800D1A0F1 /* AddNewEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC32265FA15800D1A0F1 /* AddNewEmojiView.swift */; };
+		B03BEC3B265FDDB600D1A0F1 /* SmileysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC3A265FDDB600D1A0F1 /* SmileysListView.swift */; };
+		B03BEC3E265FDF8800D1A0F1 /* SmileyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B03BEC2A265F8B8300D1A0F1 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
 		B03BEC2E265F913D00D1A0F1 /* EmojiDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDataModel.swift; sourceTree = "<group>"; };
 		B03BEC32265FA15800D1A0F1 /* AddNewEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEmojiView.swift; sourceTree = "<group>"; };
+		B03BEC3A265FDDB600D1A0F1 /* SmileysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileysListView.swift; sourceTree = "<group>"; };
+		B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			children = (
 				B03BEC2A265F8B8300D1A0F1 /* EmojiListView.swift */,
 				B03BEC32265FA15800D1A0F1 /* AddNewEmojiView.swift */,
+				B03BEC3A265FDDB600D1A0F1 /* SmileysListView.swift */,
+				B03BEC3D265FDF8800D1A0F1 /* SmileyDetailView.swift */,
 			);
 			path = EmojiViews;
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 				B03BEC1C265F8A2400D1A0F1 /* ContentView.swift in Sources */,
 				B03BEC33265FA15800D1A0F1 /* AddNewEmojiView.swift in Sources */,
 				B03BEC2B265F8B8300D1A0F1 /* EmojiListView.swift in Sources */,
+				B03BEC3E265FDF8800D1A0F1 /* SmileyDetailView.swift in Sources */,
 				B03BEC2F265F913D00D1A0F1 /* EmojiDataModel.swift in Sources */,
 				B03BEC1A265F8A2400D1A0F1 /* Udemy_DOC_EmojiAppApp.swift in Sources */,
+				B03BEC3B265FDDB600D1A0F1 /* SmileysListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

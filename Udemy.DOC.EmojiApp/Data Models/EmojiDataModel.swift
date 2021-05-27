@@ -11,6 +11,7 @@ import Combine
 class EmojiDataModel: ObservableObject {
     
     @Published var emojis = ["☠️", "👻", "🧟‍♂️", "👀", "🧠", "🦷", "🐞"]
+    @Published var smileys = ["😂", "😎", "😀", "😜", "🧐", "🤓", "🤨"]
     
     func delete(_ indices: IndexSet) {
         

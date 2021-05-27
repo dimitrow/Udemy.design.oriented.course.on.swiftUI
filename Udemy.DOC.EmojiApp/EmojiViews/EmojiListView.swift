@@ -10,7 +10,6 @@ import SwiftUI
 struct EmojiListView: View {
     
     @ObservedObject var emojiDataModel = EmojiDataModel()
-    
     @State private var popOverShown: Bool = false
     
     var body: some View {
