@@ -9,9 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var selection: Int = 0
+    
     var body: some View {
         
-        EmojiListView()
+        TabView(selection: $selection,
+                content:  {
+                    
+                    EmojiListView()
+                        .tag(0)
+                        .tabItem {
+                            Image(systemName: "circle")
+                            Text("Emoji")
+                            
+                        }
+                    SmileysListView()
+                        .tag(1)
+                        .tabItem {
+                            Image(systemName: "square")
+                            Text("Smileys")
+                            
+                        }
+                    
+                })
+            .accentColor(.green)
+        
     }
 }
 
