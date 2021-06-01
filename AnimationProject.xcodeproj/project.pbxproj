@@ -11,6 +11,31 @@
 		B03EB14326663A8B00A229E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB14226663A8B00A229E5 /* ContentView.swift */; };
 		B03EB14526663A9700A229E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03EB14426663A9700A229E5 /* Assets.xcassets */; };
 		B03EB14826663A9700A229E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03EB14726663A9700A229E5 /* Preview Assets.xcassets */; };
+		B03EB15A2666413900A229E5 /* StyleGuideColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1502666413900A229E5 /* StyleGuideColors.swift */; };
+		B03EB15B2666413900A229E5 /* ShadowExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1512666413900A229E5 /* ShadowExamples.swift */; };
+		B03EB15C2666413900A229E5 /* TextExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1522666413900A229E5 /* TextExamples.swift */; };
+		B03EB15D2666413900A229E5 /* StyleGuideCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1532666413900A229E5 /* StyleGuideCard.swift */; };
+		B03EB15E2666413900A229E5 /* GradientExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1542666413900A229E5 /* GradientExamples.swift */; };
+		B03EB15F2666413900A229E5 /* ColorExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1552666413900A229E5 /* ColorExamples.swift */; };
+		B03EB1602666413A00A229E5 /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1562666413900A229E5 /* ButtonExamples.swift */; };
+		B03EB1612666413A00A229E5 /* StyleGuideShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1572666413900A229E5 /* StyleGuideShadows.swift */; };
+		B03EB1622666413A00A229E5 /* StyleGuideTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1582666413900A229E5 /* StyleGuideTypography.swift */; };
+		B03EB1632666413A00A229E5 /* TextFontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1592666413900A229E5 /* TextFontExamples.swift */; };
+		B03EB1672666416B00A229E5 /* SpecialEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1652666416B00A229E5 /* SpecialEffectView.swift */; };
+		B03EB1682666416B00A229E5 /* UsingShapesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1662666416B00A229E5 /* UsingShapesImages.swift */; };
+		B03EB1712666419D00A229E5 /* ShapeModifierExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB16C2666419D00A229E5 /* ShapeModifierExamples.swift */; };
+		B03EB1722666419D00A229E5 /* ShapeDrawingExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB16D2666419D00A229E5 /* ShapeDrawingExamples.swift */; };
+		B03EB1732666419D00A229E5 /* EmptyArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB16E2666419D00A229E5 /* EmptyArrow.swift */; };
+		B03EB1742666419D00A229E5 /* ShapeExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB16F2666419D00A229E5 /* ShapeExamples.swift */; };
+		B03EB1752666419D00A229E5 /* CustomShapeDrawings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1702666419D00A229E5 /* CustomShapeDrawings.swift */; };
+		B03EB179266641AA00A229E5 /* ImageColorOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB176266641AA00A229E5 /* ImageColorOverview.swift */; };
+		B03EB17A266641AA00A229E5 /* ImageSizingOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB177266641AA00A229E5 /* ImageSizingOverview.swift */; };
+		B03EB17B266641AA00A229E5 /* BlurOverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB178266641AA00A229E5 /* BlurOverlayExample.swift */; };
+		B03EB17F266641B900A229E5 /* CustomIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB17C266641B800A229E5 /* CustomIconView.swift */; };
+		B03EB180266641B900A229E5 /* SystemIconExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB17D266641B800A229E5 /* SystemIconExamples.swift */; };
+		B03EB181266641B900A229E5 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB17E266641B900A229E5 /* LabelView.swift */; };
+		B03EB1842666421600A229E5 /* IntroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1832666421600A229E5 /* IntroAnimation.swift */; };
+		B03EB18A2666425E00A229E5 /* PiShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1892666425E00A229E5 /* PiShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +45,31 @@
 		B03EB14426663A9700A229E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B03EB14726663A9700A229E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B03EB14926663A9700A229E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03EB1502666413900A229E5 /* StyleGuideColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuideColors.swift; sourceTree = "<group>"; };
+		B03EB1512666413900A229E5 /* ShadowExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowExamples.swift; sourceTree = "<group>"; };
+		B03EB1522666413900A229E5 /* TextExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextExamples.swift; sourceTree = "<group>"; };
+		B03EB1532666413900A229E5 /* StyleGuideCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuideCard.swift; sourceTree = "<group>"; };
+		B03EB1542666413900A229E5 /* GradientExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientExamples.swift; sourceTree = "<group>"; };
+		B03EB1552666413900A229E5 /* ColorExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExamples.swift; sourceTree = "<group>"; };
+		B03EB1562666413900A229E5 /* ButtonExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExamples.swift; sourceTree = "<group>"; };
+		B03EB1572666413900A229E5 /* StyleGuideShadows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuideShadows.swift; sourceTree = "<group>"; };
+		B03EB1582666413900A229E5 /* StyleGuideTypography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuideTypography.swift; sourceTree = "<group>"; };
+		B03EB1592666413900A229E5 /* TextFontExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFontExamples.swift; sourceTree = "<group>"; };
+		B03EB1652666416B00A229E5 /* SpecialEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialEffectView.swift; sourceTree = "<group>"; };
+		B03EB1662666416B00A229E5 /* UsingShapesImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingShapesImages.swift; sourceTree = "<group>"; };
+		B03EB16C2666419D00A229E5 /* ShapeModifierExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeModifierExamples.swift; sourceTree = "<group>"; };
+		B03EB16D2666419D00A229E5 /* ShapeDrawingExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeDrawingExamples.swift; sourceTree = "<group>"; };
+		B03EB16E2666419D00A229E5 /* EmptyArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyArrow.swift; sourceTree = "<group>"; };
+		B03EB16F2666419D00A229E5 /* ShapeExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeExamples.swift; sourceTree = "<group>"; };
+		B03EB1702666419D00A229E5 /* CustomShapeDrawings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapeDrawings.swift; sourceTree = "<group>"; };
+		B03EB176266641AA00A229E5 /* ImageColorOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageColorOverview.swift; sourceTree = "<group>"; };
+		B03EB177266641AA00A229E5 /* ImageSizingOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSizingOverview.swift; sourceTree = "<group>"; };
+		B03EB178266641AA00A229E5 /* BlurOverlayExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurOverlayExample.swift; sourceTree = "<group>"; };
+		B03EB17C266641B800A229E5 /* CustomIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIconView.swift; sourceTree = "<group>"; };
+		B03EB17D266641B800A229E5 /* SystemIconExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemIconExamples.swift; sourceTree = "<group>"; };
+		B03EB17E266641B900A229E5 /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		B03EB1832666421600A229E5 /* IntroAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroAnimation.swift; sourceTree = "<group>"; };
+		B03EB1892666425E00A229E5 /* PiShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +102,9 @@
 		B03EB13F26663A8B00A229E5 /* AnimationProject */ = {
 			isa = PBXGroup;
 			children = (
+				B03EB1822666420300A229E5 /* Animation */,
+				B03EB1642666415100A229E5 /* ImageDrawingIcons */,
+				B03EB14F2666412400A229E5 /* StyleGuide */,
 				B03EB14026663A8B00A229E5 /* AnimationProjectApp.swift */,
 				B03EB14226663A8B00A229E5 /* ContentView.swift */,
 				B03EB14426663A9700A229E5 /* Assets.xcassets */,
@@ -67,6 +120,124 @@
 				B03EB14726663A9700A229E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B03EB14F2666412400A229E5 /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB1562666413900A229E5 /* ButtonExamples.swift */,
+				B03EB1552666413900A229E5 /* ColorExamples.swift */,
+				B03EB1542666413900A229E5 /* GradientExamples.swift */,
+				B03EB1512666413900A229E5 /* ShadowExamples.swift */,
+				B03EB1532666413900A229E5 /* StyleGuideCard.swift */,
+				B03EB1502666413900A229E5 /* StyleGuideColors.swift */,
+				B03EB1572666413900A229E5 /* StyleGuideShadows.swift */,
+				B03EB1582666413900A229E5 /* StyleGuideTypography.swift */,
+				B03EB1522666413900A229E5 /* TextExamples.swift */,
+				B03EB1592666413900A229E5 /* TextFontExamples.swift */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		B03EB1642666415100A229E5 /* ImageDrawingIcons */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB16B2666418D00A229E5 /* Shapes */,
+				B03EB16A2666418500A229E5 /* Images */,
+				B03EB1692666417A00A229E5 /* Icons */,
+				B03EB1652666416B00A229E5 /* SpecialEffectView.swift */,
+				B03EB1662666416B00A229E5 /* UsingShapesImages.swift */,
+			);
+			path = ImageDrawingIcons;
+			sourceTree = "<group>";
+		};
+		B03EB1692666417A00A229E5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB17C266641B800A229E5 /* CustomIconView.swift */,
+				B03EB17E266641B900A229E5 /* LabelView.swift */,
+				B03EB17D266641B800A229E5 /* SystemIconExamples.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		B03EB16A2666418500A229E5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB178266641AA00A229E5 /* BlurOverlayExample.swift */,
+				B03EB176266641AA00A229E5 /* ImageColorOverview.swift */,
+				B03EB177266641AA00A229E5 /* ImageSizingOverview.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B03EB16B2666418D00A229E5 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB1702666419D00A229E5 /* CustomShapeDrawings.swift */,
+				B03EB16E2666419D00A229E5 /* EmptyArrow.swift */,
+				B03EB16D2666419D00A229E5 /* ShapeDrawingExamples.swift */,
+				B03EB16F2666419D00A229E5 /* ShapeExamples.swift */,
+				B03EB16C2666419D00A229E5 /* ShapeModifierExamples.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		B03EB1822666420300A229E5 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB18C2666427700A229E5 /* views appear and disappear */,
+				B03EB18B2666427000A229E5 /* timer */,
+				B03EB1882666425300A229E5 /* shapes */,
+				B03EB1872666423A00A229E5 /* how to make a animation go */,
+				B03EB1862666422B00A229E5 /* animation timing */,
+				B03EB1852666422400A229E5 /* animatable */,
+				B03EB1832666421600A229E5 /* IntroAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B03EB1852666422400A229E5 /* animatable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = animatable;
+			sourceTree = "<group>";
+		};
+		B03EB1862666422B00A229E5 /* animation timing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "animation timing";
+			sourceTree = "<group>";
+		};
+		B03EB1872666423A00A229E5 /* how to make a animation go */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "how to make a animation go";
+			sourceTree = "<group>";
+		};
+		B03EB1882666425300A229E5 /* shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B03EB1892666425E00A229E5 /* PiShape.swift */,
+			);
+			path = shapes;
+			sourceTree = "<group>";
+		};
+		B03EB18B2666427000A229E5 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		B03EB18C2666427700A229E5 /* views appear and disappear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "views appear and disappear";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +309,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03EB180266641B900A229E5 /* SystemIconExamples.swift in Sources */,
+				B03EB1612666413A00A229E5 /* StyleGuideShadows.swift in Sources */,
+				B03EB1722666419D00A229E5 /* ShapeDrawingExamples.swift in Sources */,
+				B03EB1622666413A00A229E5 /* StyleGuideTypography.swift in Sources */,
+				B03EB1682666416B00A229E5 /* UsingShapesImages.swift in Sources */,
+				B03EB15D2666413900A229E5 /* StyleGuideCard.swift in Sources */,
+				B03EB15B2666413900A229E5 /* ShadowExamples.swift in Sources */,
+				B03EB17B266641AA00A229E5 /* BlurOverlayExample.swift in Sources */,
+				B03EB1602666413A00A229E5 /* ButtonExamples.swift in Sources */,
+				B03EB15A2666413900A229E5 /* StyleGuideColors.swift in Sources */,
+				B03EB179266641AA00A229E5 /* ImageColorOverview.swift in Sources */,
+				B03EB1752666419D00A229E5 /* CustomShapeDrawings.swift in Sources */,
 				B03EB14326663A8B00A229E5 /* ContentView.swift in Sources */,
+				B03EB15F2666413900A229E5 /* ColorExamples.swift in Sources */,
+				B03EB1742666419D00A229E5 /* ShapeExamples.swift in Sources */,
+				B03EB1632666413A00A229E5 /* TextFontExamples.swift in Sources */,
+				B03EB15E2666413900A229E5 /* GradientExamples.swift in Sources */,
+				B03EB17F266641B900A229E5 /* CustomIconView.swift in Sources */,
+				B03EB1672666416B00A229E5 /* SpecialEffectView.swift in Sources */,
+				B03EB18A2666425E00A229E5 /* PiShape.swift in Sources */,
+				B03EB181266641B900A229E5 /* LabelView.swift in Sources */,
 				B03EB14126663A8B00A229E5 /* AnimationProjectApp.swift in Sources */,
+				B03EB1732666419D00A229E5 /* EmptyArrow.swift in Sources */,
+				B03EB15C2666413900A229E5 /* TextExamples.swift in Sources */,
+				B03EB1712666419D00A229E5 /* ShapeModifierExamples.swift in Sources */,
+				B03EB17A266641AA00A229E5 /* ImageSizingOverview.swift in Sources */,
+				B03EB1842666421600A229E5 /* IntroAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
