@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,6 +36,8 @@
 		B03EB181266641B900A229E5 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB17E266641B900A229E5 /* LabelView.swift */; };
 		B03EB1842666421600A229E5 /* IntroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1832666421600A229E5 /* IntroAnimation.swift */; };
 		B03EB18A2666425E00A229E5 /* PiShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1892666425E00A229E5 /* PiShape.swift */; };
+		B03EB18E266647FA00A229E5 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */; };
+		B03EB1912666492300A229E5 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B03EB1902666492300A229E5 /* LoremSwiftum */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,7 @@
 		B03EB17E266641B900A229E5 /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		B03EB1832666421600A229E5 /* IntroAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroAnimation.swift; sourceTree = "<group>"; };
 		B03EB1892666425E00A229E5 /* PiShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiShape.swift; sourceTree = "<group>"; };
+		B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03EB1912666492300A229E5 /* LoremSwiftum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +218,7 @@
 		B03EB1872666423A00A229E5 /* how to make a animation go */ = {
 			isa = PBXGroup;
 			children = (
+				B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */,
 			);
 			path = "how to make a animation go";
 			sourceTree = "<group>";
@@ -256,6 +261,9 @@
 			dependencies = (
 			);
 			name = AnimationProject;
+			packageProductDependencies = (
+				B03EB1902666492300A229E5 /* LoremSwiftum */,
+			);
 			productName = AnimationProject;
 			productReference = B03EB13D26663A8B00A229E5 /* AnimationProject.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +291,9 @@
 				Base,
 			);
 			mainGroup = B03EB13426663A8B00A229E5;
+			packageReferences = (
+				B03EB18F2666492300A229E5 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = B03EB13E26663A8B00A229E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -318,6 +329,7 @@
 				B03EB15B2666413900A229E5 /* ShadowExamples.swift in Sources */,
 				B03EB17B266641AA00A229E5 /* BlurOverlayExample.swift in Sources */,
 				B03EB1602666413A00A229E5 /* ButtonExamples.swift in Sources */,
+				B03EB18E266647FA00A229E5 /* ImplicitAnimation.swift in Sources */,
 				B03EB15A2666413900A229E5 /* StyleGuideColors.swift in Sources */,
 				B03EB179266641AA00A229E5 /* ImageColorOverview.swift in Sources */,
 				B03EB1752666419D00A229E5 /* CustomShapeDrawings.swift in Sources */,
@@ -524,6 +536,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B03EB18F2666492300A229E5 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B03EB1902666492300A229E5 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B03EB18F2666492300A229E5 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B03EB13526663A8B00A229E5 /* Project object */;
 }
