@@ -38,6 +38,8 @@
 		B03EB18A2666425E00A229E5 /* PiShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1892666425E00A229E5 /* PiShape.swift */; };
 		B03EB18E266647FA00A229E5 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */; };
 		B03EB1912666492300A229E5 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = B03EB1902666492300A229E5 /* LoremSwiftum */; };
+		B03EB1932666507F00A229E5 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1922666507F00A229E5 /* ExplicitAnimation.swift */; };
+		B03EB19526677C6300A229E5 /* ImVSExAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		B03EB1832666421600A229E5 /* IntroAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroAnimation.swift; sourceTree = "<group>"; };
 		B03EB1892666425E00A229E5 /* PiShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiShape.swift; sourceTree = "<group>"; };
 		B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		B03EB1922666507F00A229E5 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImVSExAnimationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				B03EB18D266647FA00A229E5 /* ImplicitAnimation.swift */,
+				B03EB1922666507F00A229E5 /* ExplicitAnimation.swift */,
+				B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */,
 			);
 			path = "how to make a animation go";
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 			files = (
 				B03EB180266641B900A229E5 /* SystemIconExamples.swift in Sources */,
 				B03EB1612666413A00A229E5 /* StyleGuideShadows.swift in Sources */,
+				B03EB1932666507F00A229E5 /* ExplicitAnimation.swift in Sources */,
 				B03EB1722666419D00A229E5 /* ShapeDrawingExamples.swift in Sources */,
 				B03EB1622666413A00A229E5 /* StyleGuideTypography.swift in Sources */,
 				B03EB1682666416B00A229E5 /* UsingShapesImages.swift in Sources */,
@@ -346,6 +353,7 @@
 				B03EB1732666419D00A229E5 /* EmptyArrow.swift in Sources */,
 				B03EB15C2666413900A229E5 /* TextExamples.swift in Sources */,
 				B03EB1712666419D00A229E5 /* ShapeModifierExamples.swift in Sources */,
+				B03EB19526677C6300A229E5 /* ImVSExAnimationsView.swift in Sources */,
 				B03EB17A266641AA00A229E5 /* ImageSizingOverview.swift in Sources */,
 				B03EB1842666421600A229E5 /* IntroAnimation.swift in Sources */,
 			);
