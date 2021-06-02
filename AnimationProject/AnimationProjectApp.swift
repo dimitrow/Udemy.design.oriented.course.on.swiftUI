@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimationProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ImVSExAnimationsView()
+            ContentView()
         }
     }
 }
