@@ -41,6 +41,7 @@
 		B03EB1932666507F00A229E5 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1922666507F00A229E5 /* ExplicitAnimation.swift */; };
 		B03EB19526677C6300A229E5 /* ImVSExAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */; };
 		B03EB197266783B100A229E5 /* ImplicitStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB196266783B100A229E5 /* ImplicitStackExample.swift */; };
+		B03EB19926678F8E00A229E5 /* AnimationTimingOverviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		B03EB1922666507F00A229E5 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
 		B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImVSExAnimationsView.swift; sourceTree = "<group>"; };
 		B03EB196266783B100A229E5 /* ImplicitStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackExample.swift; sourceTree = "<group>"; };
+		B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingOverviewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		B03EB1862666422B00A229E5 /* animation timing */ = {
 			isa = PBXGroup;
 			children = (
+				B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */,
 			);
 			path = "animation timing";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				B03EB15D2666413900A229E5 /* StyleGuideCard.swift in Sources */,
 				B03EB15B2666413900A229E5 /* ShadowExamples.swift in Sources */,
 				B03EB17B266641AA00A229E5 /* BlurOverlayExample.swift in Sources */,
+				B03EB19926678F8E00A229E5 /* AnimationTimingOverviewExample.swift in Sources */,
 				B03EB1602666413A00A229E5 /* ButtonExamples.swift in Sources */,
 				B03EB18E266647FA00A229E5 /* ImplicitAnimation.swift in Sources */,
 				B03EB15A2666413900A229E5 /* StyleGuideColors.swift in Sources */,
