@@ -42,6 +42,7 @@
 		B03EB19526677C6300A229E5 /* ImVSExAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */; };
 		B03EB197266783B100A229E5 /* ImplicitStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB196266783B100A229E5 /* ImplicitStackExample.swift */; };
 		B03EB19926678F8E00A229E5 /* AnimationTimingOverviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */; };
+		B03EB19B26682BD300A229E5 /* ListAppearDisappearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		B03EB19426677C6300A229E5 /* ImVSExAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImVSExAnimationsView.swift; sourceTree = "<group>"; };
 		B03EB196266783B100A229E5 /* ImplicitStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackExample.swift; sourceTree = "<group>"; };
 		B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingOverviewExample.swift; sourceTree = "<group>"; };
+		B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppearDisappearAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 		B03EB18C2666427700A229E5 /* views appear and disappear */ = {
 			isa = PBXGroup;
 			children = (
+				B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */,
 			);
 			path = "views appear and disappear";
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				B03EB14126663A8B00A229E5 /* AnimationProjectApp.swift in Sources */,
 				B03EB1732666419D00A229E5 /* EmptyArrow.swift in Sources */,
 				B03EB15C2666413900A229E5 /* TextExamples.swift in Sources */,
+				B03EB19B26682BD300A229E5 /* ListAppearDisappearAnimation.swift in Sources */,
 				B03EB1712666419D00A229E5 /* ShapeModifierExamples.swift in Sources */,
 				B03EB19526677C6300A229E5 /* ImVSExAnimationsView.swift in Sources */,
 				B03EB17A266641AA00A229E5 /* ImageSizingOverview.swift in Sources */,
