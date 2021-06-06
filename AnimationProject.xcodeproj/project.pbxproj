@@ -43,6 +43,8 @@
 		B03EB197266783B100A229E5 /* ImplicitStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB196266783B100A229E5 /* ImplicitStackExample.swift */; };
 		B03EB19926678F8E00A229E5 /* AnimationTimingOverviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */; };
 		B03EB19B26682BD300A229E5 /* ListAppearDisappearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */; };
+		B03EB19D266A1B1300A229E5 /* TransitionContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19C266A1B1300A229E5 /* TransitionContainerExample.swift */; };
+		B03EB19F266D409600A229E5 /* AnimateAppearanceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19E266D409600A229E5 /* AnimateAppearanceStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		B03EB196266783B100A229E5 /* ImplicitStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackExample.swift; sourceTree = "<group>"; };
 		B03EB19826678F8E00A229E5 /* AnimationTimingOverviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingOverviewExample.swift; sourceTree = "<group>"; };
 		B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppearDisappearAnimation.swift; sourceTree = "<group>"; };
+		B03EB19C266A1B1300A229E5 /* TransitionContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionContainerExample.swift; sourceTree = "<group>"; };
+		B03EB19E266D409600A229E5 /* AnimateAppearanceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateAppearanceStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */,
+				B03EB19C266A1B1300A229E5 /* TransitionContainerExample.swift */,
+				B03EB19E266D409600A229E5 /* AnimateAppearanceStack.swift */,
 			);
 			path = "views appear and disappear";
 			sourceTree = "<group>";
@@ -339,6 +345,8 @@
 				B03EB1612666413A00A229E5 /* StyleGuideShadows.swift in Sources */,
 				B03EB1932666507F00A229E5 /* ExplicitAnimation.swift in Sources */,
 				B03EB197266783B100A229E5 /* ImplicitStackExample.swift in Sources */,
+				B03EB19D266A1B1300A229E5 /* TransitionContainerExample.swift in Sources */,
+				B03EB19F266D409600A229E5 /* AnimateAppearanceStack.swift in Sources */,
 				B03EB1722666419D00A229E5 /* ShapeDrawingExamples.swift in Sources */,
 				B03EB1622666413A00A229E5 /* StyleGuideTypography.swift in Sources */,
 				B03EB1682666416B00A229E5 /* UsingShapesImages.swift in Sources */,
