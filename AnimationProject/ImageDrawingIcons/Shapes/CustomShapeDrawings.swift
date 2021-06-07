@@ -17,22 +17,22 @@ struct CustomShapeDrawings: View {
 //            .frame(width: 200, height: 300)
 //                .border(Color.gray)
             
-            Arrow(tipAmoun: 0.2, isHorizontal: false)
+            Arrow(tipAmount: 0.2, isHorizontal: false)
                            .stroke(Color.red, lineWidth: 5)
                        .frame(width: 50, height: 150)
                            .border(Color.gray)
             
-            Arrow(tipAmoun: 0.2, isHorizontal: true)
+            Arrow(tipAmount: 0.2, isHorizontal: true)
                 .stroke(Color.red, lineWidth: 5)
                // .rotationEffect(Angle(degrees: 90))
             .frame(width: 200, height: 100)
                 .border(Color.gray)
             
             ZStack {
-                 Arrow(tipAmoun: 0.1, isHorizontal: false)
+                 Arrow(tipAmount: 0.1, isHorizontal: false)
                 .stroke(Color.gray)
                     .frame(width: 20)
-                 Arrow(tipAmoun: 0.1, isHorizontal: true)
+                 Arrow(tipAmount: 0.1, isHorizontal: true)
                     .stroke(Color.gray)
                   .frame(height: 20)
                 
@@ -75,8 +75,13 @@ struct MyShape: Shape {
 
 struct Arrow: Shape {
     
-    let tipAmoun: CGFloat
+    var tipAmount: CGFloat
     let isHorizontal: Bool
+    
+    var animatableData: CGFloat {
+        get { tipAmount }
+        set { tipAmount = newValue }
+    }
     
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -84,17 +89,17 @@ struct Arrow: Shape {
         if isHorizontal {
             path.move(to: CGPoint(x: 0, y: rect.height / 2))
             path.addLine(to: CGPoint(x: rect.width , y: rect.height / 2))
-            path.addLine(to: CGPoint(x: rect.width * (1 - tipAmoun) , y: 0))
+            path.addLine(to: CGPoint(x: rect.width * (1 - tipAmount) , y: 0))
             
             path.move(to: CGPoint(x: rect.width , y: rect.height / 2))
-            path.addLine(to: CGPoint(x: rect.width * (1 - tipAmoun) , y: rect.height))
+            path.addLine(to: CGPoint(x: rect.width * (1 - tipAmount) , y: rect.height))
             
         }else {
             path.move(to: CGPoint(x: rect.width / 2, y: rect.height))
             path.addLine(to: CGPoint(x: rect.width / 2, y: 0))
-            path.addLine(to: CGPoint(x: 0, y: tipAmoun * rect.height))
+            path.addLine(to: CGPoint(x: 0, y: tipAmount * rect.height))
             path.move(to: CGPoint(x: rect.width / 2, y: 0))
-            path.addLine(to: CGPoint(x: rect.width, y: tipAmoun * rect.height))
+            path.addLine(to: CGPoint(x: rect.width, y: tipAmount * rect.height))
         }
         return path
     }
