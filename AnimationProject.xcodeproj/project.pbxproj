@@ -45,6 +45,8 @@
 		B03EB19B26682BD300A229E5 /* ListAppearDisappearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */; };
 		B03EB19D266A1B1300A229E5 /* TransitionContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19C266A1B1300A229E5 /* TransitionContainerExample.swift */; };
 		B03EB19F266D409600A229E5 /* AnimateAppearanceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB19E266D409600A229E5 /* AnimateAppearanceStack.swift */; };
+		B03EB1A1266F5FD500A229E5 /* ProgressIndicatorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1A0266F5FD500A229E5 /* ProgressIndicatorExample.swift */; };
+		B03EB1A3266F6E4D00A229E5 /* RunningTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EB1A2266F6E4D00A229E5 /* RunningTimer.swift */; };
 		B0C6627B266E0D610044BD1C /* AnimateShapeArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6627A266E0D610044BD1C /* AnimateShapeArguments.swift */; };
 		B0C6627D266E10BA0044BD1C /* DrawingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6627C266E10BA0044BD1C /* DrawingExample.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +91,8 @@
 		B03EB19A26682BD300A229E5 /* ListAppearDisappearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppearDisappearAnimation.swift; sourceTree = "<group>"; };
 		B03EB19C266A1B1300A229E5 /* TransitionContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionContainerExample.swift; sourceTree = "<group>"; };
 		B03EB19E266D409600A229E5 /* AnimateAppearanceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateAppearanceStack.swift; sourceTree = "<group>"; };
+		B03EB1A0266F5FD500A229E5 /* ProgressIndicatorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorExample.swift; sourceTree = "<group>"; };
+		B03EB1A2266F6E4D00A229E5 /* RunningTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningTimer.swift; sourceTree = "<group>"; };
 		B0C6627A266E0D610044BD1C /* AnimateShapeArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateShapeArguments.swift; sourceTree = "<group>"; };
 		B0C6627C266E10BA0044BD1C /* DrawingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +255,8 @@
 				B03EB1892666425E00A229E5 /* PiShape.swift */,
 				B0C6627A266E0D610044BD1C /* AnimateShapeArguments.swift */,
 				B0C6627C266E10BA0044BD1C /* DrawingExample.swift */,
+				B03EB1A0266F5FD500A229E5 /* ProgressIndicatorExample.swift */,
+				B03EB1A2266F6E4D00A229E5 /* RunningTimer.swift */,
 			);
 			path = shapes;
 			sourceTree = "<group>";
@@ -364,11 +370,13 @@
 				B03EB1602666413A00A229E5 /* ButtonExamples.swift in Sources */,
 				B03EB18E266647FA00A229E5 /* ImplicitAnimation.swift in Sources */,
 				B03EB15A2666413900A229E5 /* StyleGuideColors.swift in Sources */,
+				B03EB1A1266F5FD500A229E5 /* ProgressIndicatorExample.swift in Sources */,
 				B03EB179266641AA00A229E5 /* ImageColorOverview.swift in Sources */,
 				B03EB1752666419D00A229E5 /* CustomShapeDrawings.swift in Sources */,
 				B03EB14326663A8B00A229E5 /* ContentView.swift in Sources */,
 				B03EB15F2666413900A229E5 /* ColorExamples.swift in Sources */,
 				B0C6627D266E10BA0044BD1C /* DrawingExample.swift in Sources */,
+				B03EB1A3266F6E4D00A229E5 /* RunningTimer.swift in Sources */,
 				B03EB1742666419D00A229E5 /* ShapeExamples.swift in Sources */,
 				B03EB1632666413A00A229E5 /* TextFontExamples.swift in Sources */,
 				B03EB15E2666413900A229E5 /* GradientExamples.swift in Sources */,
