@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B02417EE26713AC6000DAF3E /* SwipeGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */; };
+		B02417F026720077000DAF3E /* MagnificationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417EF26720077000DAF3E /* MagnificationExample.swift */; };
+		B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417F1267204BF000DAF3E /* RotationExample.swift */; };
 		B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */; };
 		B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628C26711F0E0044BD1C /* ContentView.swift */; };
 		B0C6628F26711F100044BD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C6628E26711F100044BD1C /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureExample.swift; sourceTree = "<group>"; };
+		B02417EF26720077000DAF3E /* MagnificationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationExample.swift; sourceTree = "<group>"; };
+		B02417F1267204BF000DAF3E /* RotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationExample.swift; sourceTree = "<group>"; };
 		B0C6628726711F0E0044BD1C /* ProbeAlles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProbeAlles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeAllesApp.swift; sourceTree = "<group>"; };
 		B0C6628C26711F0E0044BD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				B0C6629A267120860044BD1C /* DragGestureExample.swift */,
 				B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */,
+				B02417EF26720077000DAF3E /* MagnificationExample.swift */,
+				B02417F1267204BF000DAF3E /* RotationExample.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02417F026720077000DAF3E /* MagnificationExample.swift in Sources */,
+				B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */,
 				B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */,
 				B0C6629B267120860044BD1C /* DragGestureExample.swift in Sources */,
 				B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */,
