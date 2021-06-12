@@ -10,6 +10,11 @@
 		B02417EE26713AC6000DAF3E /* SwipeGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */; };
 		B02417F026720077000DAF3E /* MagnificationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417EF26720077000DAF3E /* MagnificationExample.swift */; };
 		B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417F1267204BF000DAF3E /* RotationExample.swift */; };
+		B0916D7326736FC300B5E947 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7226736FC300B5E947 /* SliderExample.swift */; };
+		B0916D75267379B200B5E947 /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D74267379B200B5E947 /* StepperExample.swift */; };
+		B0916D7726739B4E00B5E947 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7626739B4E00B5E947 /* ToggleExample.swift */; };
+		B0916D792673B57200B5E947 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D782673B57200B5E947 /* PickerExample.swift */; };
+		B0916D7B2674961400B5E947 /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7A2674961400B5E947 /* DatePickerExample.swift */; };
 		B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */; };
 		B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628C26711F0E0044BD1C /* ContentView.swift */; };
 		B0C6628F26711F100044BD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C6628E26711F100044BD1C /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 		B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureExample.swift; sourceTree = "<group>"; };
 		B02417EF26720077000DAF3E /* MagnificationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationExample.swift; sourceTree = "<group>"; };
 		B02417F1267204BF000DAF3E /* RotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationExample.swift; sourceTree = "<group>"; };
+		B0916D7226736FC300B5E947 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
+		B0916D74267379B200B5E947 /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
+		B0916D7626739B4E00B5E947 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
+		B0916D782673B57200B5E947 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
+		B0916D7A2674961400B5E947 /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
 		B0C6628726711F0E0044BD1C /* ProbeAlles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProbeAlles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeAllesApp.swift; sourceTree = "<group>"; };
 		B0C6628C26711F0E0044BD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +53,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0916D7126736F9D00B5E947 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B0916D7226736FC300B5E947 /* SliderExample.swift */,
+				B0916D74267379B200B5E947 /* StepperExample.swift */,
+				B0916D7626739B4E00B5E947 /* ToggleExample.swift */,
+				B0916D782673B57200B5E947 /* PickerExample.swift */,
+				B0916D7A2674961400B5E947 /* DatePickerExample.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		B0C6627E26711F0E0044BD1C = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +84,7 @@
 		B0C6628926711F0E0044BD1C /* ProbeAlles */ = {
 			isa = PBXGroup;
 			children = (
+				B0916D7126736F9D00B5E947 /* Controls */,
 				B0C6629C2671269C0044BD1C /* Helpers */,
 				B0C662992671206D0044BD1C /* Gestures */,
 				B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */,
@@ -169,12 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0916D75267379B200B5E947 /* StepperExample.swift in Sources */,
 				B02417F026720077000DAF3E /* MagnificationExample.swift in Sources */,
+				B0916D792673B57200B5E947 /* PickerExample.swift in Sources */,
 				B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */,
 				B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */,
 				B0C6629B267120860044BD1C /* DragGestureExample.swift in Sources */,
+				B0916D7B2674961400B5E947 /* DatePickerExample.swift in Sources */,
 				B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */,
+				B0916D7326736FC300B5E947 /* SliderExample.swift in Sources */,
 				B0C662A0267126D90044BD1C /* DynamicHelpers.swift in Sources */,
+				B0916D7726739B4E00B5E947 /* ToggleExample.swift in Sources */,
 				B02417EE26713AC6000DAF3E /* SwipeGestureExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
