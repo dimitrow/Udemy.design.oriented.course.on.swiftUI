@@ -7,13 +7,6 @@
 
 import SwiftUI
 
-struct Product: Identifiable {
-    
-    let id: UUID = UUID()
-    let name: String
-}
-
-
 struct BadWayExample: View {
     
     @State var products = [Product(name: "first"), Product(name: "second"), Product(name: "third"), Product(name: "fourth"), Product(name: "fifth"), Product(name: "sixth"),]

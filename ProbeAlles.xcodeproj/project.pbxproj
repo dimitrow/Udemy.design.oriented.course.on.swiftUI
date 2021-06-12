@@ -16,6 +16,10 @@
 		B0916D792673B57200B5E947 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D782673B57200B5E947 /* PickerExample.swift */; };
 		B0916D7B2674961400B5E947 /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7A2674961400B5E947 /* DatePickerExample.swift */; };
 		B0916D7E2674BE1200B5E947 /* BadWayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7D2674BE1100B5E947 /* BadWayExample.swift */; };
+		B0916D832675133B00B5E947 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D822675133B00B5E947 /* Product.swift */; };
+		B0916D852675138B00B5E947 /* ProductListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D842675138B00B5E947 /* ProductListManager.swift */; };
+		B0916D87267516AF00B5E947 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D86267516AF00B5E947 /* ProductListView.swift */; };
+		B0916D8F26754FB700B5E947 /* ProbeAllesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D8E26754FB700B5E947 /* ProbeAllesTests.swift */; };
 		B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */; };
 		B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6628C26711F0E0044BD1C /* ContentView.swift */; };
 		B0C6628F26711F100044BD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C6628E26711F100044BD1C /* Assets.xcassets */; };
@@ -23,6 +27,16 @@
 		B0C6629B267120860044BD1C /* DragGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6629A267120860044BD1C /* DragGestureExample.swift */; };
 		B0C662A0267126D90044BD1C /* DynamicHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6629F267126D90044BD1C /* DynamicHelpers.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0916D9026754FB700B5E947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C6627F26711F0E0044BD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C6628626711F0E0044BD1C;
+			remoteInfo = ProbeAlles;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureExample.swift; sourceTree = "<group>"; };
@@ -34,6 +48,11 @@
 		B0916D782673B57200B5E947 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 		B0916D7A2674961400B5E947 /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
 		B0916D7D2674BE1100B5E947 /* BadWayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadWayExample.swift; sourceTree = "<group>"; };
+		B0916D822675133B00B5E947 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B0916D842675138B00B5E947 /* ProductListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListManager.swift; sourceTree = "<group>"; };
+		B0916D86267516AF00B5E947 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		B0916D8C26754FB700B5E947 /* ProbeAllesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProbeAllesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0916D8E26754FB700B5E947 /* ProbeAllesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeAllesTests.swift; sourceTree = "<group>"; };
 		B0C6628726711F0E0044BD1C /* ProbeAlles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProbeAlles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C6628A26711F0E0044BD1C /* ProbeAllesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeAllesApp.swift; sourceTree = "<group>"; };
 		B0C6628C26711F0E0044BD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B0916D8926754FB700B5E947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0C6628426711F0E0044BD1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,15 +96,51 @@
 		B0916D7C2674BDF200B5E947 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				B0916D81267512EC00B5E947 /* Model */,
+				B0916D7F267512D500B5E947 /* Views */,
+				B0916D80267512E000B5E947 /* ViewModel */,
 				B0916D7D2674BE1100B5E947 /* BadWayExample.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		B0916D7F267512D500B5E947 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0916D86267516AF00B5E947 /* ProductListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0916D80267512E000B5E947 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0916D842675138B00B5E947 /* ProductListManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0916D81267512EC00B5E947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0916D822675133B00B5E947 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0916D8D26754FB700B5E947 /* ProbeAllesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0916D8E26754FB700B5E947 /* ProbeAllesTests.swift */,
+			);
+			path = ProbeAllesTests;
 			sourceTree = "<group>";
 		};
 		B0C6627E26711F0E0044BD1C = {
 			isa = PBXGroup;
 			children = (
 				B0C6628926711F0E0044BD1C /* ProbeAlles */,
+				B0916D8D26754FB700B5E947 /* ProbeAllesTests */,
 				B0C6628826711F0E0044BD1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				B0C6628726711F0E0044BD1C /* ProbeAlles.app */,
+				B0916D8C26754FB700B5E947 /* ProbeAllesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +200,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B0916D8B26754FB700B5E947 /* ProbeAllesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0916D9226754FB700B5E947 /* Build configuration list for PBXNativeTarget "ProbeAllesTests" */;
+			buildPhases = (
+				B0916D8826754FB700B5E947 /* Sources */,
+				B0916D8926754FB700B5E947 /* Frameworks */,
+				B0916D8A26754FB700B5E947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0916D9126754FB700B5E947 /* PBXTargetDependency */,
+			);
+			name = ProbeAllesTests;
+			productName = ProbeAllesTests;
+			productReference = B0916D8C26754FB700B5E947 /* ProbeAllesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B0C6628626711F0E0044BD1C /* ProbeAlles */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0C6629626711F100044BD1C /* Build configuration list for PBXNativeTarget "ProbeAlles" */;
@@ -160,9 +241,13 @@
 		B0C6627F26711F0E0044BD1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B0916D8B26754FB700B5E947 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B0C6628626711F0E0044BD1C;
+					};
 					B0C6628626711F0E0044BD1C = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -182,11 +267,19 @@
 			projectRoot = "";
 			targets = (
 				B0C6628626711F0E0044BD1C /* ProbeAlles */,
+				B0916D8B26754FB700B5E947 /* ProbeAllesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B0916D8A26754FB700B5E947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0C6628526711F0E0044BD1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +292,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B0916D8826754FB700B5E947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0916D8F26754FB700B5E947 /* ProbeAllesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0C6628326711F0E0044BD1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +309,7 @@
 				B0916D792673B57200B5E947 /* PickerExample.swift in Sources */,
 				B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */,
 				B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */,
+				B0916D852675138B00B5E947 /* ProductListManager.swift in Sources */,
 				B0C6629B267120860044BD1C /* DragGestureExample.swift in Sources */,
 				B0916D7B2674961400B5E947 /* DatePickerExample.swift in Sources */,
 				B0916D7E2674BE1200B5E947 /* BadWayExample.swift in Sources */,
@@ -215,13 +317,71 @@
 				B0916D7326736FC300B5E947 /* SliderExample.swift in Sources */,
 				B0C662A0267126D90044BD1C /* DynamicHelpers.swift in Sources */,
 				B0916D7726739B4E00B5E947 /* ToggleExample.swift in Sources */,
+				B0916D87267516AF00B5E947 /* ProductListView.swift in Sources */,
 				B02417EE26713AC6000DAF3E /* SwipeGestureExample.swift in Sources */,
+				B0916D832675133B00B5E947 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B0916D9126754FB700B5E947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C6628626711F0E0044BD1C /* ProbeAlles */;
+			targetProxy = B0916D9026754FB700B5E947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B0916D9326754FB700B5E947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43CRT824P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RockyTurtle.ProbeAllesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProbeAlles.app/ProbeAlles";
+			};
+			name = Debug;
+		};
+		B0916D9426754FB700B5E947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43CRT824P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RockyTurtle.ProbeAllesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProbeAlles.app/ProbeAlles";
+			};
+			name = Release;
+		};
 		B0C6629426711F100044BD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,6 +545,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B0916D9226754FB700B5E947 /* Build configuration list for PBXNativeTarget "ProbeAllesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0916D9326754FB700B5E947 /* Debug */,
+				B0916D9426754FB700B5E947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0C6628226711F0E0044BD1C /* Build configuration list for PBXProject "ProbeAlles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

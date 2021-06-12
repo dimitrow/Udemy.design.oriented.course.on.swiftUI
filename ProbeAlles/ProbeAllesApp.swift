@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ProbeAllesApp: App {
+    
+    @StateObject var productListManager = ProductListManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView(productListManager: productListManager)
         }
     }
 }
