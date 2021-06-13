@@ -14,7 +14,9 @@ struct ProbeAllesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ProductListView(productListManager: productListManager)
+            
+            ContentView()
+//            ProductListView(productListManager: productListManager)
         }
     }
 }
