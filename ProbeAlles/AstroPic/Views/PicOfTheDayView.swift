@@ -36,6 +36,7 @@ struct PicOfTheDayView: View {
                     .font(.headline)
             }
         }
+        .padding()
         
     }
 }
