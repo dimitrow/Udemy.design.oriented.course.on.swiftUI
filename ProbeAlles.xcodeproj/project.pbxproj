@@ -10,6 +10,7 @@
 		B02417EE26713AC6000DAF3E /* SwipeGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */; };
 		B02417F026720077000DAF3E /* MagnificationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417EF26720077000DAF3E /* MagnificationExample.swift */; };
 		B02417F2267204BF000DAF3E /* RotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02417F1267204BF000DAF3E /* RotationExample.swift */; };
+		B07B15812677B08400BE76C1 /* DateChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B15802677B08400BE76C1 /* DateChangeView.swift */; };
 		B0916D7326736FC300B5E947 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7226736FC300B5E947 /* SliderExample.swift */; };
 		B0916D75267379B200B5E947 /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D74267379B200B5E947 /* StepperExample.swift */; };
 		B0916D7726739B4E00B5E947 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0916D7626739B4E00B5E947 /* ToggleExample.swift */; };
@@ -47,6 +48,7 @@
 		B02417ED26713AC6000DAF3E /* SwipeGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureExample.swift; sourceTree = "<group>"; };
 		B02417EF26720077000DAF3E /* MagnificationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationExample.swift; sourceTree = "<group>"; };
 		B02417F1267204BF000DAF3E /* RotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationExample.swift; sourceTree = "<group>"; };
+		B07B15802677B08400BE76C1 /* DateChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateChangeView.swift; sourceTree = "<group>"; };
 		B0916D7226736FC300B5E947 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
 		B0916D74267379B200B5E947 /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
 		B0916D7626739B4E00B5E947 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				B0916D9F2675F79100B5E947 /* PicOfTheDayView.swift */,
+				B07B15802677B08400BE76C1 /* DateChangeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				B0C6628D26711F0E0044BD1C /* ContentView.swift in Sources */,
 				B0916D852675138B00B5E947 /* ProductListManager.swift in Sources */,
 				B0C6629B267120860044BD1C /* DragGestureExample.swift in Sources */,
+				B07B15812677B08400BE76C1 /* DateChangeView.swift in Sources */,
 				B0916D7B2674961400B5E947 /* DatePickerExample.swift in Sources */,
 				B0916D7E2674BE1200B5E947 /* BadWayExample.swift in Sources */,
 				B0C6628B26711F0E0044BD1C /* ProbeAllesApp.swift in Sources */,
